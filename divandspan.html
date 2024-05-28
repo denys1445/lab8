@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <meta name="author" content="Myrontsov Denys">
+    <title>Лабораторна робота 5</title>
+    <style>
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:active {
+            color: orange;
+        }
+
+        .container {
+            border: 1px solid #000;
+        }
+
+        .header {
+            background-color: #f8f8f8;
+            position: relative;
+        }
+
+        .main-content {
+            padding: 20px;
+            position: relative;
+        }
+
+        .floating-box {
+            float: left;
+            background-color: #e3e3e3;
+
+        }
+
+        .fixed-box {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #ccc;
+            border: 1px solid #000;
+        }
+
+        .relative-box {
+            position: relative;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        .relative-box .highlight {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .absolute-box {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #ffa;
+            border: 1px solid #000;
+        }
+
+        .footer p:first-child {
+            font-style: italic;
+        }
+
+        .footer:before {
+            content: "Початок футера  ";
+            font-weight: bold;
+        }
+
+        .footer:after {
+            content: "  Кінець футера";
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #efefef;
+            border-top: 1px solid #ccc;
+            position: relative;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Вітаємо в нашій бібліотеці!</h1>
+        </div>
+
+        <div class="main-content">
+            <div class="floating-box">Це плаваючий блок</div>
+            <div class="fixed-box">Це блок з фіксованою позицією</div>
+            <div class="relative-box">
+                <span class="highlight">Це відносно позиційований блок</span>
+            </div>
+            <div class="absolute-box">Це абсолютно позиційований блок</div>
+        </div>
+
+        <div class="footer">
+            <a href="#" class="footer-link">Посилання</a>
+        </div>
+    </div>
+</body>
+</html>

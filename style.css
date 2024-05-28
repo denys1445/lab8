@@ -1,0 +1,80 @@
+.header-activites {
+    font-size: 36px;
+    color: red;
+    font-style: oblique;
+    line-height: 7px;
+    text-align: left;
+}
+
+#bigger-paragraph {
+    font-size: 14;
+    color: yellowgreen;
+    font-style: italic;
+    line-height: 10px;
+    text-align: center;
+}
+
+body {
+    font-size: 14px;
+    color: green !important;
+    font-style: normal;
+    line-height: 30px;
+    text-align: left;
+    background-color: lightblue !important;
+}
+
+a {
+    font-style: normal;
+    color: brown !important;
+}
+
+ul {
+    list-style-type: square;
+    background-color: #f0f0f0;
+    color: coral;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-style: normal;
+}
+
+
+ol {
+    list-style-type: decimal;
+    background-color: #f0f0f0;
+    color: yellow;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+
+dl {
+    background-color: #f0f0f0;
+    color: red;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+
+table {
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: bold;
+}
+
+table th {
+    background-color: lightblue;
+    color: pink;
+    border: 1px solid #ccc;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
